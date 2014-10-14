@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+th {
+  
+  height:40px;
+  padding-left:25px;
+  padding-right:25px;
+  font-size:20px;
+  
+}
+
+td {
+  
+  height:40px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:10px;
+  font-size:19px;
+  
+}
+
+.button {
+  
+  background-color:#306;
+  font-size:18px;
+  font-variant:small-caps;
+  border:none;
+  color:#FFF;
+  text-decoration:none;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:3px;
+  padding-bottom:3px;
+  
+  
+}
+
+.button:hover {
+  
+  background-color:#339;
+  
+}

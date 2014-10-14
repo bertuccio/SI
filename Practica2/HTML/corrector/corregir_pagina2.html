@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Proyecto Guttemberg - Corregir Pagina</title>
+<link href="../../Styles/corregir_pagina.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../Scripts/corregir_pagina.js"></script>
+<script type="text/javascript" src="../../Scripts/inicio.js">
+</script>
+</head>
+
+<body onload="scorrevole()">
+  <div id="cuerpo">
+    <div id="cabecera">
+      <img src="../../Images/logo.png" width="798" height="100" />
+    </div>
+    <div id="msuperior">
+      
+          <a href="inicio.html">Inicio</a>
+          <a href="buscar.html">Buscar Libro</a>
+          <a href="corregir.html">Corregir Pagina</a>
+          <a href="../../index.php">Desconexi&oacute;n</a>
+       
+    </div>
+    <center> 
+        <form name="form2"><p><input type="text" style="border:none;" name="scorrevole" size="80" /></p></form>
+    </center>
+    <div id="referencia">
+      <center>
+      <table>
+        <tr>
+          <td>
+            <h2>Titulo:</h2>
+          </td>
+          <td>
+            <h2>El Se&ntilde;or de los Anillos: Las dos torres</h2>
+           </td>
+         </tr>
+         <tr>
+           <td>
+            <h2>Autor:</h2>
+          </td>
+          <td>
+            <h2>J.R.R. Tolkien</h2>
+           </td>
+         </tr>
+         <tr>
+           <td>
+            <h2>Pagina:&nbsp;</h2>
+          </td>
+          <td>
+            <h2>3</h2>
+           </td>
+         </tr>
+       </table> 
+       </center>    
+    </div>
+    <div id="imagen">
+    <center>
+      <img width="750px" height="950px" border="1px" src="../../Images/pagina1.png"/>
+    </center>
+    </div>
+    <div id="texto">
+    <center>
+      <form name="texto_pagina" method="post" action="corregir.html" onKeyUp='desbloquear(this);'>
+        <p><label>Texto</label></p>
+        <textarea cols="80" rows="500">
+  -Pero hay que darse prisa -dijo Gimli-. El no hubiese querido que nos retrasáramos. Tenemos que seguir a los orcos, si hay esperanza de que alguno de la Compañía sea un prisionero vivo.
+  -Pero no sabemos si el Portador del Anillo está con ellos o no -dijo Aragorn-. ¿Vamos a abandonarlo? ¿No tendríamos que buscarlo primero? ¡La elección que se nos presenta ahora es de veras funesta! -Pues bien, hagamos ante todo lo que es ineludible -dijo Legolas-.   No tenemos ni tiempo ni herramientas para dar sepultura adecuada a nuestro amigo. Podemos cubrirlo con piedras.
+  -La tarea será pesada y larga; las piedras que podrían servirnos están casi a orillas del río.
+  -Entonces pongámoslo en una barca con las armas de él y las armas de los enemigos vencidos -dijo Aragorn -. Lo enviaremos a los Saltos de Rauros y lo dejaremos en manos del Anduin. El Río de Gondor cuidará al menos de que ninguna criatura maligna deshonre los huesos de Boromir.
+
+  Buscaron de prisa entre los cuerpos de los orcos, juntando en un montón las espadas y los yelmos y escudos hendidos.
+  -¡Mirad! -exclamó Aragorn-. ¡Hay señales aquí! -De la pila de armas siniestras recogió dos puñales de lámina en forma de hoja, damasquinados de oro y rojo; y buscando un poco más encontró también las vainas, negras, adornadas con pequeñas gemas rojas. ¡Estas no son herramientas de orcos! -dijo-. Las llevaban los hobbits. No hay duda de que fueron despojados por los orcos, pero que tuvieron miedo de conservar los puñales, conociéndolos en lo que eran: obra de Oesternesse, cargados de sortilegios para desgracia de Mordor. Bien, aunque estén todavía vivos, nuestros amigos no tienen armas. Tomaré éstas, esperando contra toda esperanza que un día pueda devolvérselas.
+  -Y yo -dijo Legolas- tomaré las flechas que encuentre, pues mi carcaj está vacío.
+  Buscó en la pila y en el suelo de alrededor y encontró no pocas intactas, más largas que las flechas comunes entre los orcos. Las examinó de cerca.
+  Y Aragorn, mirando los muertos, dijo:
+  -Hay aquí muchos cadáveres que no son de gente de Mordor. Algunos vienen del Norte, de las Montañas Nubladas, si algo sé de orcos y sus congéneres. Y aquí hay otros que nunca he visto. ¡El atavío no es propio de los orcos!
+  Había cuatro soldados más corpulentos que los orcos, morenos, de ojos oblicuos, piernas gruesas y manos grandes. Estaban armados con espadas cortas de hoja ancha y no con las cimitarras curvas habituales en los orcos, y tenían arcos de tejo, parecidos en tamaño y forma a los arcos de los hombres. En los escudos llevaban un curioso emblema: una manita blanca en el centro de un campo negro; una S rúnica de algún metal blanco había sido montada sobre la visera de los yelmos.
+  -Nunca vi estos signos -dijo Aragorn-. ¿Qué significan? -S representa a Sauron, por supuesto -dijo Gimli. -¡No! -exclamó Legolas-.     Sauron no usa las runas élficas. -Nunca usa además su verdadero nombre y no permite que lo escriban o lo
+pronuncien -dijo Aragorn-. Y tampoco usa el blanco. El signo de los orcos de
+        </textarea>
+        <p>
+          <input id="terminado" type="submit" value="Enviar Completada" name="completa1" disabled="true" onClick="window.onbeforeunload = noconfirmaSalida;" />
+          <input id="corregir" type="submit" value="Enviar Parcialmente Corregida" name="parcial" disabled="true" onClick="window.onbeforeunload = noconfirmaSalida;" />
+          <input id="desechar" type="submit" value="Desechar Esta Pagina" name="desechar" onclick="window.onbeforeunload = noconfirmaSalida; return confirmarPagina();" />
+          <input id="terminado2" type="submit" value="Enviar Completada y Corregir Nueva" name="completa2" disabled="true" onclick="window.onbeforeunload = noconfirmaSalida;" />
+        </p>        
+      </form>
+    </center>
+    </div>
+    <div id="pie">
+    <hr width="800px" color="#DDDDDD" size="1px" noshade="noshade" style="border-color:#CCC" />
+    <p>
+      <a href="mailto:christian.ramos@estudiante.uam.es">Contacta con nosotros</a> &nbsp;|&nbsp; 
+        <a href="../../condiciones.html">Condiciones de uso</a> &nbsp;|&nbsp; 
+        <a href="../../info.html">¿Qui&eacute;nes somos?</a> 
+    </p>
+    <p style="font-size:16px; color:#000;">©2011 Proyecto Gutenberg</p>
+    </div>
+  </div>
+</body>
+</html>

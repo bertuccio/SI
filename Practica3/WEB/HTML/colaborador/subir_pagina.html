@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Proyecto Guttemberg - Subir pagina</title>
+<link href="../../Styles/subir_pagina.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../Scripts/inicio.js"></script>
+</head>
+
+<body onload="scorrevole()">
+  <div id="cuerpo">
+    <div id="cabecera">
+      <img src="../../Images/logo.png" width="798" height="100" />
+    </div>
+    <div id="msuperior">
+      
+          <a href="inicio.html">Inicio</a>
+          <a href="buscar.html">Buscar Libro</a>
+          <a href="subir.html">Subir Contenido</a>
+          <a href="../../index.php">Desconexi&oacute;n</a>
+       
+    </div>
+    <center> 
+        <form name="form2"><p><input type="text" style="border:none;" name="scorrevole" size="80" /></p></form>
+    </center>
+    <div id="referencia">
+      <center>
+      <table>
+        <tr>
+          <td>
+            <h2>Titulo:</h2>
+          </td>
+          <td>
+            <h2>El Codigo Da Vinci</h2>
+           </td>
+         </tr>
+         <tr>
+           <td>
+            <h2>Autor:</h2>
+          </td>
+          <td>
+            <h2>Dan Brown</h2>
+           </td>
+         </tr>
+       </table>
+       </center>
+    </div>
+    <div id="formularios">
+    <center>
+      <form name="subir_pagina" method="post" action="subir_pagina.html">
+        <p>
+        <label for="titulo">Imagen: </label>
+          <input id="titulo" type="text" value="Seleccione la imagen de la pagina..." maxlength="29" size="50" style="color:#999" 
+          autocomplete="off" onfocus="if(this.value=='Seleccione la imagen de la pagina...'){this.value = ''; this.style.color='#000'}" 
+          onblur="if (this.value == '') {this.value = 'Seleccione la imagen de la pagina...'; this.style.color='#999'}" />
+          <button id="examinar_imagen">Examinar</button>
+          </p>
+          <p>        
+          <label for="autor">Texto:&nbsp;</label>
+          <input id="autor" type="text" value="Seleccione el texto de la pagina..." maxlength="29" size="50" style="color:#999" 
+          autocomplete="off" onfocus="if (this.value == 'Seleccione el texto de la pagina...'){this.value = ''; this.style.color='#000'}"
+          onblur="if (this.value == ''){this.value = 'Seleccione el texto de la pagina...'; this.style.color='#999'}" />
+          <button id="examinar_texto">Examinar</button>
+          </p>
+          <p>
+          <label for="npagina">Numero de p&aacute;gina: </label>
+          <input type="text" name="npagina" id="npagina" maxlength="5" size="8"/>
+          </p>
+          <p><input class="button" id="subir" type="submit" value="Subir" /></p>       
+        </form>
+    <center>
+    </div>
+    <div id="pie">
+    <hr width="800px" color="#DDDDDD" size="1px" noshade="noshade" style="border-color:#CCC" />
+    <p>
+        <a href="mailto:christian.ramos@estudiante.uam.es">Contacta con nosotros</a> &nbsp;|&nbsp; 
+        <a href="../../condiciones.html">Condiciones de uso</a> &nbsp;|&nbsp; 
+        <a href="../../info.html">¿Qui&eacute;nes somos?</a>
+      </p>
+    <p style="font-size:16px; color:#000;">©2011 Proyecto Gutenberg</p>
+    </div>
+  </div>
+</body>
+</html>

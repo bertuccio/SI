@@ -1,0 +1,10 @@
+ ano_mes | usuario | libros_procesados 
+---------+---------+-------------------
+ 2010-12 | dizzy   |                92
+ 2011-01 | aeneas  |                84
+ 2011-03 | fame    |                97
+ 2011-04 | fame    |               101
+ 2011-06 | fame    |                55
+ 2011-07 | fame    |                60
+(6 rows)
+

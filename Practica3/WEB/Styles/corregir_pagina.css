@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input {
+  
+  font-size:13px;
+  margin-top:20px;
+  margin-left:10px;
+  
+}
+
+#cuerpo {
+  
+  margin-left:auto;
+  margin-right:auto;
+  top:0px;;
+  margin-top:0px;
+  height:600px;
+  width:800px;
+  
+}
+
+#cabecera {
+  
+  position:relative;
+  width:798px;
+  height:100px;
+  top:0px;
+  left:2px;
+  margin:0px;
+  padding:0px;
+  background-color:#009;
+  
+}
+
+#msuperior {
+  
+  position:relative;
+  top:2px;
+  width:800px;
+  background-color:#306;
+  height:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  padding:0px;
+  z-index:3;  
+}
+
+#msuperior a {
+  
+  color:#FFF;
+  font-size:18px;
+  width:198px;
+  height:50px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-left:20px;
+  padding-right:20px;
+  text-decoration:none;
+  font-family:Verdana, Geneva, sans-serif;
+  font-variant:small-caps;
+  text-align:center;
+  vertical-align:middle;
+  border-left:solid;
+  border-left-color:#FFF;
+  border-left-width:2px;
+  cursor:pointer;
+  display:table-cell;
+  z-index:4;
+  
+}
+
+#msuperior a:hover {
+  
+  background-color:#339;
+  font-variant:small-caps;
+  font-weight:bold;
+  
+}
+
+#referencia {
+  
+  width:798;
+  height:150px;
+  padding-top:20px;
+  
+}
+
+#imagen {
+  
+  position:absolute;
+  top:560px;
+  width:800px;
+  height:1000px;
+  padding-top:0px;
+  text-decoration:none;
+  font-family:Verdana, Geneva, sans-serif;
+  font-variant:small-caps;
+  
+}
+
+#texto {
+  
+  position:relative;
+  top: 1140px;
+  width:800px;
+  height:200px;
+  font-size:22px;
+  
+}
+
+#texto textarea {
+
+  font-size:15px;
+  height:300px; 
+  resize:none;
+  
+}
+
+#pie {
+  
+  position:relative;
+  background-color:#FFF;
+  width:100%;
+  top:1395px;
+  bottom:0px;
+  padding-top:0px;
+  height:75px;
+  font-size:11px;
+  color:#999;
+  text-align:center;
+  z-index:2;
+  
+}
+
+#pie a {
+  
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#999;
+  font-size:11px;
+  font-family:Verdana, Geneva, sans-serif;
+  
+}
+
+#pie a:hover {
+  
+  text-decoration:underline;
+  color:#F60;
+
+}
+
